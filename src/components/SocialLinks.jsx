@@ -15,7 +15,7 @@ const socialLinks = [
     displayName: "Let's Connect",
     subText: "on LinkedIn",
     icon: Linkedin,
-    url: "https://www.linkedin.com/in/ekizr/",
+    url: "",
     color: "#0A66C2",
     gradient: "from-[#0A66C2] to-[#0077B5]",
     isPrimary: true,
@@ -23,34 +23,34 @@ const socialLinks = [
   {
     name: "Instagram",
     displayName: "Instagram",
-    subText: "@ekizr._",
+    subText: "@nazriljs_08",
     icon: Instagram,
-    url: "https://www.instagram.com/ekizr._/?hl=id",
+    url: "https://www.instagram.com/nazril_jaya.08?igsh=MWY4dnRldzZlMTR1Nw==",
     color: "#E4405F",
     gradient: "from-[#833AB4] via-[#E4405F] to-[#FCAF45]",
   },
   {
     name: "YouTube",
     displayName: "Youtube",
-    subText: "@eki zulfar",
+    subText: "@arilsupriatman",
     icon: Youtube,
-    url: "https://www.youtube.com/@eki_zulfar",
+    url: "https://www.instagram.com/nazril_jaya.08?utm_source=qr&igsh=MWY4dnRldzZlMTR1Nw==",
     color: "#FF0000",
     gradient: "from-[#FF0000] to-[#CC0000]",
   },
   {
     name: "GitHub",
     displayName: "Github",
-    subText: "@EkiZR",
+    subText: "@Nazril123",
     icon: Github,
-    url: "https://github.com/EkiZR",
+    url: "https://github.com/nazril123-ind",
     color: "#ffffff",
     gradient: "from-[#333] to-[#24292e]",
   },
   {
     name: "TikTok",
     displayName: "Tiktok",
-    subText: "@eki_zulfar",
+    subText: "@nazril",
     icon: ({ className, ...props }) => (
       <svg
         width="24px"
@@ -88,7 +88,7 @@ const socialLinks = [
         </g>
       </svg>
     ),
-    url: "https://tiktok.com/@eki_zulfar",
+    url: "https://www.tiktok.com/@nazril.jaya0?_t=ZS-8xYlZqpEnJq&_r=1",
     color: "black",
     gradient: "from-[#000000] via-[#25F4EE] to-[#FE2C55]",
   },
@@ -123,7 +123,7 @@ const SocialLinks = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="group relative flex items-center justify-between p-4 rounded-lg 
-                     bg-white/5 border border-white/10 overflow-hidden
+                     bg-white/5 border border-white/10
                      hover:border-white/20 transition-all duration-500"
           data-aos="fade-up"
           data-aos-delay="100" 
@@ -187,7 +187,7 @@ const SocialLinks = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="group relative flex items-center gap-3 p-4 rounded-xl 
-                               bg-white/5 border border-white/10 overflow-hidden
+                               bg-white/5 border border-white/10
                                hover:border-white/20 transition-all duration-500"
               data-aos="fade-up" 
               data-aos-delay={200 + index * 100} 
@@ -246,7 +246,7 @@ const SocialLinks = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="group relative flex items-center gap-3 p-4 rounded-xl 
-                               bg-white/5 border border-white/10 overflow-hidden
+                               bg-white/5 border border-white/10
                                hover:border-white/20 transition-all duration-500"
               data-aos="fade-up" 
               data-aos-delay={400 + index * 100}
